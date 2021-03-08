@@ -46,9 +46,8 @@ const SecHome = () => {
             <div className="home-footer">
                 <img src={require('../Svg/dots.svg').default} alt=""/>
                 <div className="tools-language">
-                    <p>Tools and frameworks which i used in my projects</p>
+                    <p>Tools and frameworks which used in my projects</p>
                     <div className="tools-slider">
-                       <Draggable axis="y">
                             <ul className="items-skills">
                                {tools.map((row,index)=>(
                                     <li key={index}>
@@ -56,7 +55,6 @@ const SecHome = () => {
                                     </li>
                                 ))}
                             </ul>
-                       </Draggable>
                     </div>
                 </div>
             </div>

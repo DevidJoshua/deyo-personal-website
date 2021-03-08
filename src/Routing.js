@@ -25,13 +25,13 @@ export default function Routing() {
     return (
         <Router>
             <Header/>
-            <ToogleNight/>
-            {/* Routes */}
+            {/* <ToogleNight/> */}
 
-            {pages.map((row,index)=>{
-                if(row.group) return(<Switch key={index}>{(row.path).map((r,i)=><Route exact key={i} to={r.path}>{row.comp}</Route>)}</Switch>)
-                else return(<Route key={index} exact to={row.path}>{row.comp}</Route>)
-            })}
+            {/* Routes */}
+                {pages.map((row,index)=>{
+                    if(row.group) return(<Switch key={index}>{(row.path).map((r,i)=><Route exact key={i} to={r.path}>{row.comp}</Route>)}</Switch>)
+                    else return(<Route key={index} exact to={row.path}>{row.comp}</Route>)
+                })}
             {/* Routes */}
         </Router>
     )

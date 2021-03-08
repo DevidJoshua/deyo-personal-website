@@ -1,5 +1,6 @@
 
-@media (min-width:0px) and (max-width:$mostTablet){
+@media (max-width:$largeDevices){
+
     header{
         .header-wrapper{
             display: flex;
@@ -8,6 +9,7 @@
             flex: 1;
             transition: all 0.5s ease-in;
             .logo-nav{
+                margin-top: 10px;
                 width: 70px;
                 margin-left: 10px;
             }
@@ -93,8 +95,10 @@
                             font-size: 15pt;
                             color: $darkWhite;
                             text-decoration: none;
+                            transform-origin: center;
                         }
                         span{
+                            display: inline-block;
                             margin: 5px;
                             width: 0px;
                             height: 3px;
@@ -167,7 +171,6 @@
                             &:hover{
                                 cursor: pointer;
                                 font-weight: bold;
-                                font-style: underline;
                             }
                             &:active{
                                 font-weight: bold;
