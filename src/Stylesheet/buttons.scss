@@ -1,0 +1,13 @@
+.btn{
+    border: none;
+    outline: none !important;
+    padding: 10px 20px;
+    &:hover{
+        -webkit-box-shadow: 0px 0px 26px -9px rgba(0,0,0,0.4);
+        -moz-box-shadow: 0px 0px 26px -9px rgba(0,0,0,0.4);
+        box-shadow: 0px 0px 26px -9px rgba(0,0,0,0.4);
+    }
+}
+.rounded{
+    border-radius: 10vh;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,900&display=swap');
+
+$yellow:#f3eb1e;
+$darGrey:#282828;
+$darkWhite:#f0f0f0;
+
+/*root small devices*/
+$rootLogoNav:80px;
+
+$smallerPhone: 320px; /*smaller phone viewpoints*/
+$smallerDevices: 480px; /*small devices and most phones*/
+$mostTablet: 768px; /*most tablets*/
+$smallerDesktop: 992px; /*smaller desktop viewpoints*/
+$largeDevices: 1200px;/*large devices and wide screens*/
+
+html{
+    background: $darkWhite;
+}
+*{
+    font-family: 'poppins', sans-serif;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import 'buttons.scss';
+@import 'header.scss';
+@import 'containers/container.scss';
+@import 'toogle_day_night.scss';
+
+@import 'sections/sec-home.scss';
