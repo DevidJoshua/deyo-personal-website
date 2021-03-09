@@ -20,22 +20,22 @@ const SecHome = () => {
     ]
     return (
         <section className="section-home">
-            <div className="profile">
-                <div className="greetings">
-                        <div className="greet-box">
-                            <p>Hii, Visitors</p>
-                            <img src={require('../Svg/chat-box.svg').default}/>
-                        </div>
-                        <h1>I'm Devid Yosua</h1>
+            <div className="profile ">
+                <div className="greetings ">
+                        <h1>Hii, I'm Devid Yosua</h1>
                         <span>Software Developer</span>
                         <span>Graphic Design Enthuasiast</span>
+                        <br/>
+                        <br/>
+                        <br/>
                         <span>Video Editing Enthuasiast</span>
                         <span>Motion Graphic Enthuasiast</span>
+                        <br/>
                         <div className="social-media">
-                            <a href=""><RiFacebookFill/></a>
-                            <a href=""><RiTwitterFill/></a>
-                            <a href=""><RiInstagramFill/></a>
-                            <a href=""><RiGithubFill/></a>
+                            <a href=""><i class="fab btn rounded fa-facebook-f"/></a>
+                            <a href=""><i class="fab btn rounded fa-twitter"/></a>
+                            <a href=""><i class="fab btn rounded fa-instagram"/></a>
+                            <a href=""><i class="fab btn rounded fa-github"/></a>
                         </div>
 
                 </div>
@@ -43,10 +43,10 @@ const SecHome = () => {
                         <center><img src={Images.mePhoto} alt="my profile pic"/></center>
                 </div>
             </div>
+            <br/>
             <div className="home-footer">
-                <img src={require('../Svg/dots.svg').default} alt=""/>
                 <div className="tools-language">
-                    <p>Tools and frameworks which used in my projects</p>
+                    <p>Tools and frameworks used in my projects</p>
                     <div className="tools-slider">
                             <ul className="items-skills">
                                {tools.map((row,index)=>(

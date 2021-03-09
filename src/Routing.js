@@ -6,6 +6,8 @@ import {
     Link
   } from "react-router-dom";
 import Header from './Components/Header/index'
+import Footer from './Components/Footer/index'
+
 import ToogleNight from './Components/ToogleNightDay'
 
 import Home from './Pages/PageHome'
@@ -33,6 +35,7 @@ export default function Routing() {
                     else return(<Route key={index} exact to={row.path}>{row.comp}</Route>)
                 })}
             {/* Routes */}
+            <Footer/>
         </Router>
     )
 }

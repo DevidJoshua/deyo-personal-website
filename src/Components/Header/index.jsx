@@ -1,7 +1,7 @@
 import React from 'react'
 import {Images} from '../../Theme'
 import {MyContext} from '../../Context'
-
+import {Link} from 'react-router-dom'
 
 
 
@@ -19,11 +19,16 @@ const Header = (props) =>{
                 </div>
                 <div className={`nav-menu ${isDay ? '' : 'nav-menu-night'}`}>
                     <ul>
-                        <li><a href="#">Home</a><span/></li>
-                        <li><a href="#">Portofolio</a><span/></li>
-                        <li><a href="#">Services</a><span/></li>
-                        <li><a href="#">Order</a><span/></li>
-                        <li><a href="#">About</a><span/></li>
+                        <li>
+                            <Link to="/home">Home</Link><span/></li>
+                        <li>
+                            <Link to="#">Portofolio</Link><span/></li>
+                        <li>
+                            <Link to="#">Services</Link><span/></li>
+                        <li>
+                            <Link to="#">Order</Link><span/></li>
+                        <li>
+                            <Link to="#">About</Link><span/></li>
                     </ul>
                 </div>
            </div>

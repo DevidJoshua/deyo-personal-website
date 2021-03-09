@@ -6,6 +6,7 @@ const images ={
     logo:imgImport('logo.png'),
     logoLight:imgImport('logo-night.png'),
     mePhoto:imgImport('me-photo.png'),
+    bgMgLight:imgImport('bg-motion-graphics-light.png'),
     //tools
     ae:imgImport('skills/aftereffect.png'),
     git:imgImport('skills/github.png'),
