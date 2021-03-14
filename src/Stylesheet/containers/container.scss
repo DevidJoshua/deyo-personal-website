@@ -9,7 +9,7 @@
         height: 100%;
         background: $darkWhite;
         .content-container{
-
+            min-height: 600px;
             background: $darkWhite;
             overflow: hidden;
             z-index: -1;

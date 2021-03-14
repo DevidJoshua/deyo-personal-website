@@ -10,7 +10,7 @@ export default class Container extends PureComponent {
     render() {
         return (
             <div className="container" >
-                <div className="content-container" style={{background:`url(${Images.bgMgLight})`,backgroundSize:'260vh 260vh'}}>
+                <div className="content-container" style={{background:`url(${Images.bgMgLight})`,backgroundSize:'230vh 230vh'}}>
                     <Routing/>
                 </div>
             </div>
