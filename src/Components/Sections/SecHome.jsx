@@ -32,10 +32,10 @@ const SecHome = () => {
                         <span>Motion Graphic Enthuasiast</span>
                         <br/>
                         <div className="social-media">
-                            <a href=""><i class="fab btn rounded fa-facebook-f"/></a>
-                            <a href=""><i class="fab btn rounded fa-twitter"/></a>
-                            <a href=""><i class="fab btn rounded fa-instagram"/></a>
-                            <a href=""><i class="fab btn rounded fa-github"/></a>
+                            <a href=""><i className="fab btn rounded fa-facebook-f"/></a>
+                            <a href=""><i className="fab btn rounded fa-twitter"/></a>
+                            <a href=""><i className="fab btn rounded fa-instagram"/></a>
+                            <a href=""><i className="fab btn rounded fa-github"/></a>
                         </div>
 
                 </div>

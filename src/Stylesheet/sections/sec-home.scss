@@ -99,6 +99,7 @@
             font-size: 3rem;
         }
         span{
+            white-space: nowrap;
             padding: 5px 10px;
             background: $yellow;
             color: $darGrey;
@@ -121,6 +122,39 @@
     }
     .profile-pic{
         display: none;
+    }
+}
+@media (max-width:400px){
+    //more responsive
+    .section-home{
+        overflow: hidden;
+        margin:30px 2px !important;
+    }
+    .profile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .greetings{
+        min-width: 50%;
+        h1{
+            font-size: 3rem;
+        }
+        span{
+            white-space: nowrap;
+            padding: 5px 10px;
+            background: $yellow;
+            color: $darGrey;
+            text-align: center;
+            border-radius: 2vh;
+            font-size: 10pt;
+            margin-right: 20px;
+        }
+    }
+    .profile-pic{
+        img{
+            width: 15rem;
+        }
     }
 }
 

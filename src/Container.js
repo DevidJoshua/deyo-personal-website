@@ -11,7 +11,6 @@ export default class Container extends PureComponent {
         return (
             <div className="container" >
                 <div className="content-container" style={{background:`url(${Images.bgMgLight})`,backgroundSize:'260vh 260vh'}}>
-
                     <Routing/>
                 </div>
             </div>
