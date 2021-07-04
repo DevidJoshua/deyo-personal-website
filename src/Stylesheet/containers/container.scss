@@ -6,7 +6,7 @@
     .container{
         box-sizing: border-box;
         padding: 2% 5%;
-        height: 100%;
+        min-height: 30rem;
         background: $darkWhite;
         .content-container{
             min-height: 600px;
