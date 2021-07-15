@@ -213,8 +213,8 @@
 		$(window).stellar();
 	};
 
-	// var audio = new Audio('./song.mp3');
-	// audio.play();
+	var audio = new Audio('./song.mp3');
+	audio.play();
 
 
 	$(function(){
