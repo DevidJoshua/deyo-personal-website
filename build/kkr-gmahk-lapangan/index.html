@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="KKR GMAHK Lapangan"/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content="https://deyo.my.id/kkr-gmahk-lapangan/">
+	<meta property="og:site_name" content="GMAHK Lapangan"/>
+	<meta property="og:description" content="KKR Satu Hari Pengharapan | 19-25 Desember 2021"/>
+	<meta name="twitter:title" content="KKR GMAHK Lapangan" />
+	<meta name="twitter:image" content="poster.jpg" />
+	<meta name="twitter:url" content="https://deyo.my.id/kkr-gmahk-lapangan/" />
+	<meta name="twitter:card" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>KKR GMAHK Lapangan</title>
+</head>
+<style>
+    *{
+        font-family: 'Roboto', sans-serif;
+    }
+    html{
+        background: url(https://www.kibrispdr.org/dwn/5/hope-background.jpg);
+
+        background-size: auto;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    img{
+        width: 60vh;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+    }
+    .btn{
+        margin: 1rem;
+        padding: 0.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius: 2rem;
+        border: none;
+        font-size: 1rem;
+        font-weight: 'bold';
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 3vh;
+    }
+    .container:hover{
+        cursor: pointer;
+        box-shadow: -1px -1px 18px 0px rgba(255, 255, 255, 0.5);
+        -webkit-box-shadow: -1px -1px 10px 0px rgba(255, 255, 255, 0.50);
+        -moz-box-shadow: -1px -1px 10px 0px rgba(255, 255, 255, 0.50);
+    }
+    h1{
+        color:#000;
+    }
+    .btn:hover{
+        color: #fff;
+        cursor: pointer;
+        box-shadow: -1px -1px 18px 0px rgba(0,0,0,0.50);
+        -webkit-box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.50);
+        -moz-box-shadow: -1px -1px 10px 0px rgba(0,0,0,0.50);
+    }
+    .live{
+        /* color: #fff; */
+        border-color: #fff;
+    }
+    .live:hover{
+        background: #eb3b5a;
+    }
+    .zoom{
+        /* color: #fff; */
+        border-color: #fff;
+    }
+    .zoom:hover{
+        background: #4b7bec;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <h1>Come and join us</h1>
+        <img src="poster.jpg" />
+        <div class="wrapper">
+            <button class="btn live" onclick="liveOnclick()">LIVE STREAM</button>
+            <button class="btn zoom" onclick="zoomOnclick()">ZOOM</button>
+        </div>
+    </div>
+</body>
+<script>
+    function liveOnclick(){
+        window.location="https://www.facebook.com/GMAHK-Jemaat-Lapangan-Manado-170235627905771"
+    }
+    function zoomOnclick(){
+        window.location="https://us02web.zoom.us/j/89093621425?pwd=alFTTy9aM3YzV1praE5IeHBYcVRHUT09"
+    }
+</script>
+</html>
